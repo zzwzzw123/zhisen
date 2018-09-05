@@ -1,0 +1,203 @@
+@charset "utf-8";
+
+/*统一设置*/
+*{
+	margin: 0;
+	padding: 0;
+}
+
+ol,ul,li{
+	list-style: none;
+}
+
+body{
+	font-size: 12px;
+	font-family: "微软雅黑";
+	color: #000000;
+}
+
+a{
+	color: #000000;
+	text-decoration: none;
+}
+
+/*网页头部*/
+#header{
+	width: 960px;
+	height: 70px;
+	margin: 0 auto;
+}
+
+#header img{
+	display: block;
+}
+
+/*主导航*/
+#nav{
+	min-width: 960px;
+	height: 50px;
+	background: #47A3DA;
+}
+
+#nav ul{
+	width: 960px;
+	height: 50px;
+	margin: 0 auto;
+}
+
+#nav ul li{
+	float: left;
+	width: 160px;
+	text-align: center;
+	line-height: 50px;
+}
+
+#nav ul li a{
+	display: block;
+	color: #ffffff;
+	font-size: 18px;
+	font-weight: 500px;
+	/*每个文字间隔*/
+	letter-spacing: 3px;
+}
+
+#nav ul li a:hover{
+	background: #e6f2fa;
+	color: #47A3DA;
+}
+
+/*高亮导航*/
+.active{
+	background: #0068b7;
+}
+
+/*主内容区*/
+#main{
+	width: 960px;
+	margin: 0 auto;
+	padding-top: 10px;
+	overflow: hidden;
+}
+
+/*左侧边栏*/
+#main #aside{
+	width: 220px;
+	float: left;
+	text-align: center;
+}
+
+/*公司简介*/
+#list h3{
+	background: #47A3DA;
+	line-height: 35px;
+	color: #FFFFFF;
+	font-size: 16px;
+}
+
+
+#list ul li a{
+	display: block;
+	line-height: 40px;
+	font-size: 14px;
+	border-bottom: 1px dotted #000;
+	color: #666666;
+}
+
+
+#list ul li a:hover{
+	background: #47A3DA;
+	color: #FFFFFF;
+}
+
+/*全国服务支持*/
+#address{
+	background: #eeeeee;
+	padding: 10px;
+	margin-top: 30px;
+}
+
+#address h3{
+	font-size: 16px;
+	line-height: 35px;
+	border-bottom: 1px solid green;
+}
+
+#address ul li{
+	font-size: 14px;
+	line-height: 30px;
+}
+
+.icon-tel{
+	position: relative;
+	left: 0px;
+	top: 3px;
+}
+
+.icon-msg{
+	position: relative;
+	left: 0px;
+	top: 4px;
+}
+
+/*右侧内容*/
+#contents{
+	width: 720px;
+	float: right;
+	font-size: 14px;
+}
+
+#contents h4{
+	line-height: 40px;
+	font-weight: normal;
+	border-bottom: 3px solid #47A3DA;
+}
+
+#contents .sub_banner{
+	padding: 5px 0;
+	border-bottom: 3px solid #47A3DA;
+}
+
+#contents .sub_banner img{
+	display:block;
+}
+
+#contents .wenzhang{
+	color: #333;
+}
+
+#contents .wenzhang h1{
+	line-height: 60px;
+	text-align: center;
+}
+
+
+#contents .wenzhang p{
+	line-height: 25px;
+	letter-spacing: 1px;
+	text-indent: 2em;
+	padding: 10px 0;
+}
+
+/*网页底部*/
+#footer{
+	padding: 20px;
+	background: #4b4b4b;
+	color: #FFFFFF;
+}
+
+#footer .wrapper{
+	width: 960px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+#footer .wrapper dl{
+	float: left;
+	width: 320px;
+	line-height: 20px;
+}
+
+#footer .wrapper dl dt{
+	font-weight: bold;
+}
+

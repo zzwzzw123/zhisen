@@ -1,0 +1,211 @@
+@charset "utf-8";
+
+/*统一设置*/
+*{
+	margin: 0;
+	padding: 0;
+}
+
+ol,ul,li{
+	list-style-type: none;
+}
+
+body{
+	font-size: 12px;
+	font-family: "微软雅黑";
+	color: #000000;
+}
+
+a{
+	color: #000000;
+	text-decoration: none;
+}
+
+/*网页头部*/
+#header{
+	width: 960px;
+	height: 70px;
+	margin: 0 auto;
+}
+
+#header img{
+	display: block;
+}
+
+/*主导航*/
+#nav{
+	min-width: 960px;
+	height: 50px;
+	background: #47A3DA;
+}
+
+#nav ul{
+	width: 960px;
+	height: 50px;
+	margin: 0 auto;
+}
+
+#nav ul li{
+	float: left;
+	width: 160px;
+	text-align: center;
+	line-height: 50px;
+}
+
+#nav ul li a{
+	display: block;
+	color: #ffffff;
+	font-size: 18px;
+	font-weight: 500px;
+	/*每个文字间隔*/
+	letter-spacing: 3px;
+}
+
+#nav ul li a:hover{
+	background: #e6f2fa;
+	color: #47A3DA;
+}
+
+/*高亮导航*/
+.active{
+	background: #0068b7;
+}
+
+/*主banner*/
+#banner{
+	height: 250px;
+	background: url(../images/02.jpg) no-repeat;
+}
+
+/*主内容区*/
+#main{
+	width: 960px;
+	margin: 0 auto;
+	padding-top: 30px;
+}
+
+/*新闻，产品，人才*/
+#main .wrapper{
+	overflow: hidden;
+}
+
+#news,#pro,#tal{
+	width: 320px;
+	float: left;	
+}
+
+#news h3,#pro h3,#tal h3{
+	color: #666;
+	border-left: 5px solid #0068B7;
+	text-indent: 1em;
+}
+
+.lanmu{
+	padding: 20px 0;
+}
+
+.lanmu img{
+	display: block;
+}
+
+#news ul,#pro ul,#tal ul{
+	list-style-image: url(../images/dot.jpg);
+	width: 90%;
+	margin: 0 auto;
+}
+
+#news ul a,#pro ul a,#tal ul a{
+	color: #333333;
+	line-height: 20px;
+}
+
+#news ul a:hover,#pro ul a:hover,#tal ul a:hover{
+	color: red;
+}
+
+/*案例，招聘，公益*/
+#anli,#zhaopin,#gongyi{
+	float: left;
+	width: 320px;
+}
+
+#anli h3,#zhaopin h3,#gongyi h3{
+	color: #0068B7;
+	line-height: 40px;
+}
+
+#anli ul,#zhaopin ul,#gongyi ul{
+	list-style-image: url(../images/dot.jpg);
+}
+
+#anli a,#zhaopin a,#gongyi a{
+	color: #333333;
+	line-height: 20px;
+}
+
+#anli a:hover,#zhaopin a:hover,#gongyi a:hover{
+	color: red;
+}
+	
+#anli ul li,#zhaopin ul li,#gongyi ul li{
+	width: 220px;
+	margin-left: 100px;
+}
+
+#anli ul{
+	background: url(../images/icon1.png) no-repeat left center;
+	
+}
+
+#zhaopin ul{
+	background: url(../images/icon2.png) no-repeat left center;
+}
+
+#gongyi ul{
+	background: url(../images/icon3.png) no-repeat left center;
+}
+
+/*合作伙伴*/
+#gundong{
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+
+#gundong h3{
+	color: #0068B7;
+	line-height: 40px;
+}
+
+#gundong a{
+	display: block;
+	float: left;
+}
+
+#gundong a img{
+	display: block;
+}
+
+
+/*网页底部*/
+#footer{
+	padding: 20px;
+	background: #4b4b4b;
+	color: #FFFFFF;
+}
+
+#footer .wrapper{
+	width: 960px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+#footer .wrapper dl{
+	float: left;
+	width: 320px;
+	line-height: 20px;
+}
+
+#footer .wrapper dl dt{
+	font-weight: bold;
+}
+
